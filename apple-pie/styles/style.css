@@ -1,61 +1,62 @@
-p {
-    text-align: center;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: auto;
-}
-
-section {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-header {
-    position: relative;
-    text-align: center;
-}
-
-h1 {
-    position: absolute;
-    bottom: 50%;
-    font-size: 250px;
-    color: white;
-    text-align: center;
-    padding-left: 1000px;
-    font-weight: 400;
-}
-
-.container {
-    width: 80%;
+/* Global Styles */
+body {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+section {
+	width: 80%;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+img {
+	display: block;
+	margin: 40px auto;
+	max-width: 100%;
 }
 
+#header-container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+/* Text Styles */ 
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 70px;
+	font-weight: 400;
+}
+
+h2 {
+	margin-top: 30px;
+}
+
+p {
+	text-align: center;
+}
+
+/* List Styles */
 ul {
-    list-style-type: "- ";
+	list-style-type: "- ";
 }
 
 ol {
-    counter-reset: list;
+	counter-reset: list;
 }
+
 ol > li {
-    list-style: none;
+	list-style: none;
 }
+
 ol > li:before {
-    content: counter(list) ") ";
-    counter-increment: list;
+	content: counter(list) ") ";
+	counter-increment: list;
 }
