@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+section {
+	width: 80%;
+}
+
+img {
+	display: block;
+	margin: 40px auto;
+	max-width: 100%;
+}
+
+#header-container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+/* Text Styles */ 
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 70px;
+	font-weight: 400;
+}
+
+h2 {
+	margin-top: 30px;
+}
+
+p {
+	text-align: center;
+}
+
+/* List Styles */
+ul {
+	list-style-type: "- ";
+}
+
+ol {
+	counter-reset: list;
+}
+
+ol > li {
+	list-style: none;
+}
+
+ol > li:before {
+	content: counter(list) ") ";
+	counter-increment: list;
+}
