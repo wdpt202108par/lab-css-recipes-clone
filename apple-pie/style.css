@@ -1,3 +1,58 @@
-body {
-    background-color: brown;
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color:white;
 }
+
+h1{
+    font-size: 4em;
+    text-align: center;
+    color:black;
+}
+h2{
+    margin-left: 10%;
+    margin-left: 10%;
+}
+
+img.mettre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.header img{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 10px;
+    width: 20em;
+    
+}
+section p{
+    text-align: start;
+    margin-left: 10%;
+    margin-left: 10%;
+}
+
+ul{
+    margin-left: 10%;
+}
+
+hr{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    
+}
+
+.four p{
+    text-align: start;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header p{
+    text-align: start;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+

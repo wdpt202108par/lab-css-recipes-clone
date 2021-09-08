@@ -9,6 +9,10 @@ h1{
     text-align: center;
     color:black;
 }
+h2{
+    margin-left: 10%;
+    margin-left: 10%;
+}
 
 img.mettre{
     display: block;
@@ -22,6 +26,7 @@ img.mettre{
     display: block;
     margin-bottom: 10px;
     width: 20em;
+    
 }
 section p{
     text-align: start;
@@ -45,3 +50,9 @@ hr{
     margin-left: 10%;
     margin-right: 10%;
 }
+header p{
+    text-align: start;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
