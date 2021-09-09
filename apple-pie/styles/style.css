@@ -1,5 +1,53 @@
-/* familyfont */
 
 body {
-  family-font: '';
+  margin:0; 
+  font: Verdana, 18px;
+  padding-bottom: 3cm;
 }
+
+.boxheader{
+  width: 80%;
+  margin-left: auto;margin-right: auto;
+  font-size: 100%;
+  padding-top: 0.5cm;
+  padding-bottom: 0.5cm;
+}
+
+.box{
+  width: 80%;
+  margin-left: auto;margin-right: auto;
+  font-size: 90%;
+}
+
+h1{
+  margin-top:0;margin-bottom: 0;
+  font-size:350%;
+  background: url("../images/apple-pie.jpg") center no-repeat; background-size:cover;
+  color: white;
+  text-align: center;
+  padding-top: 200px;padding-bottom: 200px;
+
+}
+
+.iconinfo{
+  display: block;margin-right: auto;margin-left: auto;
+  margin-top: 20px;margin-bottom: 20px;
+  height: 1.8cm;
+
+}
+
+header img{height: 300px;}
+
+
+
+
+h2 {
+  font-size: 150%;
+  font-weight: normal;
+  border-top: 1px solid grey;padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+
